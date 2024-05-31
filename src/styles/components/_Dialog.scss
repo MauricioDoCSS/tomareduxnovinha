@@ -1,0 +1,57 @@
+.dialog {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  gap: 1rem;
+  border-radius: 0.3rem;
+  background-color: $bg;
+  padding: 1.2rem;
+
+  .top-content-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .btn-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+  }
+
+  .middle-content-dialog {
+    padding: 0 0.5rem;
+
+    p {
+      font-size: 0.9rem;
+      font-weight: 500;
+      line-height: 1.2rem;
+    }
+  }
+
+  .bottom-content-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.8rem;
+  }
+
+  @media screen and (max-width: 658px) {
+    justify-content: space-between;
+    padding: 1.2rem;
+    gap: 2rem;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+
+    .bottom-content-dialog {
+      flex-direction: column;
+      justify-content: baseline;
+      align-items: baseline;
+    }
+  }
+}

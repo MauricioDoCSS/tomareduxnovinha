@@ -1,0 +1,15 @@
+.full-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  inset: 0 0;
+  z-index: 10;
+  background-color: $bgOpacityBlack;
+
+  @media screen and (max-width: 658px) {
+    align-items: flex-end;
+  }
+}

@@ -1,0 +1,13 @@
+.sidebar {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0px 44px 0px;
+  width: 112px;
+  background-color: $bg-sidebar;
+  border-right: 1px solid $borderColor;
+
+  .logo-sidebar {
+    width: 41.563px;
+    height: 48px;
+  }
+}

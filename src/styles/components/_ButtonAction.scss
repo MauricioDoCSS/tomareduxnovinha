@@ -1,0 +1,14 @@
+.button-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 2.8rem;
+  height: 2.8rem;
+  font-size: 1.3rem;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: $backgroundHover;
+  }
+}

@@ -1,0 +1,27 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3rem;
+  padding: 0.8rem 1rem;
+  font-weight: 600;
+
+  &.filled {
+    background-color: $primaryColor;
+    color: $color;
+  }
+
+  &.light {
+    background-color: rgb($secondaryColor, 0.3);
+    color: $secondaryColor;
+  }
+
+  &.outline {
+    color: $primaryColor;
+    background-color: transparent;
+    border: 1px solid $primaryColor;
+  }
+
+  &.subtle {
+  }
+}
